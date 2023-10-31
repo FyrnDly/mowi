@@ -1,0 +1,16 @@
+{
+    "name": "fyrn/request",
+    "description": "Membuat api untuk terkoneksi dengan flask",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "FyrnDly",
+            "email": "fadramdani25@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php-curl-class/php-curl-class": "^9.18"
+    }
+}

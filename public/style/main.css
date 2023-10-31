@@ -1,0 +1,80 @@
+* {
+  font-family: "Noto Sans", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Tinos", serif;
+}
+
+.btn-primary {
+  background-color: #468966 !important;
+  border: none;
+  color: white;
+}
+.btn-primary:hover {
+  background-color: #9bccb2 !important;
+  color: black !important;
+}
+
+.btn-secondary {
+  background-color: #9bccb2 !important;
+  border: none;
+  color: #468966;
+}
+.btn-secondary:hover {
+  background-color: #3bb373 !important;
+  color: black !important;
+}
+
+header {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../assets/banner.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+nav {
+  min-height: 70px;
+  margin-top: 25px;
+}
+nav.bg-blur {
+  background-color: rgba(0, 0, 0, 0.35);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+nav a.active {
+  font-weight: 700 !important;
+}
+
+section.main {
+  background-color: #468966;
+}
+section.main .card {
+  background-color: #23563c;
+  color: white;
+  height: -moz-max-content;
+  height: max-content;
+}
+section.about {
+  background-color: #9bccb2;
+}
+section.about .img-thumb {
+  box-shadow: 4px 2px 8px 2px #23563c;
+  width: 100%;
+}
+section.about p {
+  text-align: justify;
+}
+section.about .card {
+  background-color: #468966;
+  color: white;
+  height: -moz-max-content;
+  height: max-content;
+}
+
+footer {
+  background-color: #468966;
+}/*# sourceMappingURL=main.css.map */

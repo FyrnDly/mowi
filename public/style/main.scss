@@ -1,0 +1,87 @@
+// Style
+$primary : #468966;
+$secondary : #9bccb2;
+
+// Font
+*{
+    font-family: 'Noto Sans', sans-serif;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Tinos', serif;
+}
+
+.btn-primary{
+    background-color: $primary !important;
+    border: none;
+    color: white;
+    &:hover{
+        background-color: $secondary !important;
+        color: black !important;
+    }
+}
+
+.btn-secondary{
+    background-color: $secondary !important;
+    border: none;
+    color: $primary;
+    &:hover{
+        background-color: #3bb373 !important;
+        color: black !important;
+    }
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../assets/banner.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+
+nav{
+    min-height: 70px;
+    margin-top:25px;
+    &.bg-blur{
+        background-color: rgba(0, 0, 0, 0.35);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+    }
+    a{
+        &.active{
+            font-weight: 700 !important;
+        }
+    }
+}
+
+section{
+    &.main{
+        background-color: $primary;
+        .card{
+            background-color: #23563c;
+            color: white;
+            height: max-content;
+        }
+    }
+    &.about{
+        background-color: $secondary;
+        .img-thumb{
+            box-shadow: 4px 2px 8px 2px #23563c;
+            width: 100%;
+        }
+        p{
+            text-align: justify;
+        }
+        .card{
+            background-color: $primary;
+            color: white;
+            height: max-content;
+        }
+    }
+}
+
+footer{
+    background-color: $primary;
+}
